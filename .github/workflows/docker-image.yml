@@ -35,6 +35,7 @@ jobs:
           wget https://cdn.discordapp.com/attachments/1130818182404391024/1130822027092172800/Super_Mario_64_J_.z64
           mv Super_Mario_64_J_.z64 baserom.jp.z64
           chmod +x *
+          sudo apt install build-essential pkg-config git binutils-mips-linux-gnu python3 zlib1g-dev libaudiofile-dev libcapstone-dev
 
 
       - name: Compile
