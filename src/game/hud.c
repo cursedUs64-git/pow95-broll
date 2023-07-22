@@ -263,7 +263,7 @@ void render_hud_power_meter(void) {
 void render_hud_mario_lives(void) {
     print_text(31, 210, ","); // 'Mario Head' glyph
     print_text(47, 210, "*"); // 'X' glyph
-    print_text_fmt_int(61, 210, "%d", gHudDisplay.lives);
+    print_text_fmt_int(61, 210, "%02d", gHudDisplay.lives);
 }
 
 /**
@@ -272,7 +272,7 @@ void render_hud_mario_lives(void) {
 void render_hud_coins(void) {
     print_text(172, 193, "+"); // 'Coin' glyph
     print_text(188, 193, "*"); // 'X' glyph
-    print_text_fmt_int(202, 193, "%d", gHudDisplay.coins);
+    print_text_fmt_int(202, 193, "%02d", gHudDisplay.coins);
 }
 
 /**
@@ -282,7 +282,7 @@ void render_hud_coins(void) {
 void render_hud_stars(void) {
     print_text(172, 210, "-"); // 'Star' glyph
     print_text(188, 210, "*"); // 'X' glyph
-    print_text_fmt_int(202, 210, "%d", gHudDisplay.stars);
+    print_text_fmt_int(202, 210, "%02d", gHudDisplay.stars);
 }
 
 /**
