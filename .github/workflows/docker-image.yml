@@ -44,4 +44,4 @@ jobs:
         uses: actions/upload-artifact@v2.2.4
         with:
           name: linuxBuild
-          path: 'build/jp'
+          path: 'build/jp/sm64.jp.z64'
