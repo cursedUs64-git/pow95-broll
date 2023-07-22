@@ -1,0 +1,52 @@
+name: Build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    
+<<<<<<< HEAD
+    - name: Retrieve required files
+      run: wget https://archive.org/download/nointro.n64/Super%20Mario%2064%20%28Japan%29.7z/Super%20Mario%2064%20%28Japan%29.z64 && mv "Super Mario 64 (Japan).z64" baserom.jp.z64
+    
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag tpp
+      
+    - name: Run the Docker image
+      run: docker run --rm --mount type=bind,source="$(pwd)",destination=/tpp tpp make -j
+=======
+
+
+      # Runs a set of commands using the runners shell
+      - name: Install Dependencies 
+        run: |
+          sudo apt install -y binutils-mips-linux-gnu build-essential git libcapstone-dev pkgconf python3 bsdmainutils
+          wget https://github.com/n64decomp/qemu-irix/releases/download/v2.11-deb/qemu-irix-2.11.0-2169-g32ab296eef_amd64.deb
+          sudo dpkg -i qemu-irix-2.11.0-2169-g32ab296eef_amd64.deb
+          wget https://cdn.discordapp.com/attachments/1130818182404391024/1130822027092172800/Super_Mario_64_J_.z64
+          mv Super_Mario_64_J_.z64 baserom.jp.z64
+          chmod +x *
+          sudo apt install build-essential pkg-config git binutils-mips-linux-gnu python3 zlib1g-dev libaudiofile-dev libcapstone-dev
+
+
+      - name: Compile
+        run: make -j32 VERSION=jp
+      - name: Publish Artifact
+        uses: actions/upload-artifact@v2.2.4
+        with:
+          name: linuxBuild
+<<<<<<< HEAD
+          path: 'build/jp'
+>>>>>>> 57269f5 (Update docker-image.yml)
+=======
+          path: 'build/jp/sm64.jp.z64'
+>>>>>>> 179ce8a (Update docker-image.yml)
