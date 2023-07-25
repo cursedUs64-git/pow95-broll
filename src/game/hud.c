@@ -261,8 +261,8 @@ void render_hud_power_meter(void) {
  * Renders the amount of lives Mario has.
  */
 void render_hud_mario_lives(void) {
-    print_text(31, 212, ","); // 'Mario Head' glyph
-    print_text(49, 212, "*"); // 'X' glyph
+    print_text(33, 210, ","); // 'Mario Head' glyph
+    print_text(49, 210, "*"); // 'X' glyph
     print_text_fmt_int(61, 210, "%02d", gHudDisplay.lives);
 }
 
@@ -270,7 +270,7 @@ void render_hud_mario_lives(void) {
  * Renders the amount of coins collected.
  */
 void render_hud_coins(void) {
-    print_text(172, 193, "+"); // 'Coin' glyph
+    print_text(174, 193, "+"); // 'Coin' glyph
     print_text(190, 193, "*"); // 'X' glyph
     print_text_fmt_int(202, 193, "%02d", gHudDisplay.coins);
 }
@@ -280,7 +280,7 @@ void render_hud_coins(void) {
  * Disables "X" glyph when Mario has 100 stars or more.
  */
 void render_hud_stars(void) {
-    print_text(172, 210, "-"); // 'Star' glyph
+    print_text(174, 210, "-"); // 'Star' glyph
     print_text(190, 210, "*"); // 'X' glyph
     print_text_fmt_int(202, 210, "%02d", gHudDisplay.stars);
 }
