@@ -595,7 +595,7 @@ s32 act_side_flip(struct MarioState *m) {
 
     play_mario_sound(m, SOUND_ACTION_TERRAIN_JUMP, 0);
 
-    if (common_air_action_step(m, ACT_SIDE_FLIP_LAND, MARIO_ANIM_SLIDEFLIP, AIR_STEP_CHECK_LEDGE_GRAB)
+    if (common_air_action_step(m, ACT_SIDE_FLIP_LAND, MARIO_ANIM_FORWARD_FLIP, AIR_STEP_CHECK_LEDGE_GRAB)
         != AIR_STEP_GRABBED_LEDGE) {
         m->marioObj->header.gfx.angle[1] += 0x8000;
     }
