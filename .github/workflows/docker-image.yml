@@ -23,6 +23,7 @@ jobs:
       
     - name: Run the Docker image
       run: docker run --rm --mount type=bind,source="$(pwd)",destination=/tpp tpp make -j
+<<<<<<< HEAD
 =======
 
 
@@ -50,3 +51,5 @@ jobs:
 =======
           path: 'build/jp/sm64.jp.z64'
 >>>>>>> 179ce8a (Update docker-image.yml)
+=======
+>>>>>>> f550b3a (Update docker-image.yml)
