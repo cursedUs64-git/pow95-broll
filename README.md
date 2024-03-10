@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 # chili-tpp
+=======
+# This repo is already updated!
+
+Just because there are 6 commits behind, doesnt mean it is not updated! See the commits yourself and compare them!
+# The Preservation Project
+>>>>>>> 1239543 (Update README.md)
 
 'chili-tpp' is a modification of The Preservation Project, which aims to improve the overall accuracy of the hack.
 
