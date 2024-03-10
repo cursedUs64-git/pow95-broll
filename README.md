@@ -1,9 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # chili-tpp
 =======
 # This repo is already updated!
 
 Just because there are 6 commits behind, doesnt mean it is not updated! See the commits yourself and compare them!
+=======
+>>>>>>> 610e251 (Update README.md)
 # The Preservation Project
 >>>>>>> 1239543 (Update README.md)
 
