@@ -14,7 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-<<<<<<< HEAD
       # Runs a set of commands using the runners shell
     - name: Install Dependencies 
       run: |
@@ -33,8 +32,12 @@ jobs:
         name: linuxBuild
         path: 'build/jp/sm64.jp.z64'
 <<<<<<< HEAD:.github/workflows/main.yml
+<<<<<<< HEAD:.github/workflows/main.yml
 
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 580c841 (Modify doccy):.github/workflows/docker-image.yml
 =======
     - name: Retrieve required files
       run: wget https://archive.org/download/nointro.n64/Super%20Mario%2064%20%28Japan%29.7z/Super%20Mario%2064%20%28Japan%29.z64 && mv "Super Mario 64 (Japan).z64" baserom.jp.z64
@@ -45,4 +48,9 @@ jobs:
     - name: Run the Docker image
       run: docker run --rm --mount type=bind,source="$(pwd)",destination=/tpp tpp make -j
 >>>>>>> f550b3a (Update docker-image.yml)
+<<<<<<< HEAD:.github/workflows/main.yml
 >>>>>>> b9cfd48 (Update docker-image.yml):.github/workflows/docker-image.yml
+=======
+=======
+>>>>>>> 6812e65 (Modify doccy)
+>>>>>>> 580c841 (Modify doccy):.github/workflows/docker-image.yml
