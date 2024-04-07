@@ -1,16 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# chili-tpp
-=======
-# This repo is already updated!
-
-Just because there are 6 commits behind, doesnt mean it is not updated! See the commits yourself and compare them!
-=======
->>>>>>> 610e251 (Update README.md)
-# The Preservation Project
->>>>>>> 1239543 (Update README.md)
-
-'chili-tpp' is a modification of The Preservation Project, which aims to improve the overall accuracy of the hack.
+# pow95-broll
+'pow95-broll' is a modification of The Preservation Project, which aims to improve the overall accuracy of the hack, and try to recreate B-Roll'95.
 
 ## Credits
 
@@ -71,5 +60,8 @@ Just because there are 6 commits behind, doesnt mean it is not updated! See the 
 *Toru the Red Fox*
 
 *CreamDream*
+
+### Repository Reviver
+*OmegaN64* (damn he came back after all these years)
 
 ### Original Super Mario 64 Decompilation Team
