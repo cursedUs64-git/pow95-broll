@@ -33,6 +33,7 @@ jobs:
         path: 'build/jp/sm64.jp.z64'
 <<<<<<< HEAD:.github/workflows/main.yml
 <<<<<<< HEAD:.github/workflows/main.yml
+<<<<<<< HEAD:.github/workflows/main.yml
 
 =======
 =======
@@ -54,3 +55,6 @@ jobs:
 =======
 >>>>>>> 6812e65 (Modify doccy)
 >>>>>>> 580c841 (Modify doccy):.github/workflows/docker-image.yml
+=======
+
+>>>>>>> c65ee62 (Modify docker-image.yml):.github/workflows/docker-image.yml
