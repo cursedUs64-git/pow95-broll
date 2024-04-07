@@ -66,8 +66,10 @@
 *OmegaN64* (damn he came back after all these years)
 
 ### Fork for Accuracy: chili-tpp
+
 # Credits
-stalechilibeans
+
+*Stalechilibeans*
 
 
 
