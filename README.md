@@ -62,6 +62,13 @@
 *CreamDream*
 
 ### Repository Reviver
+
 *OmegaN64* (damn he came back after all these years)
+
+### Fork for Accuracy: chili-tpp
+# Credits
+stalechilibeans
+
+
 
 ### Original Super Mario 64 Decompilation Team
