@@ -66,11 +66,11 @@ s8 sAudioEnabled = 1;
 u32 sNumVblanks = 0;
 s8 gResetTimer = 0;
 s8 D_8032C648 = 0;
-s8 gDebugLevelSelect = 0;
+s8 gDebugLevelSelect = FALSE;
 s8 D_8032C650 = 0;
 
 s8 gShowProfiler = FALSE;
-s8 gShowDebugText = 1;
+s8 gShowDebugText = FALSE;
 
 u16 sProfilerKeySequence[] = { U_JPAD, U_JPAD, D_JPAD, D_JPAD, L_JPAD, R_JPAD, L_JPAD, R_JPAD };
 
